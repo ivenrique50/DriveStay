@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DriveStay • Más reservas y control</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar container">
+    <div class="brand">
+      <img src="assets/LOGO1.jpg" alt="DriveStay" class="logo">
+      <strong>DriveStay</strong>
+    </div>
+    <a class="btn ghost" href="#score">QUIERO OPTIMIZAR</a>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero__text">
+        <h1>Más reservas y mejor control de tu anuncio</h1>
+        <p class="sub">Optimización con IA y 7 años de experiencia como Superhost.</p>
+
+        <div class="features">
+          <div class="feature">
+            <div class="icon">⏳</div>
+            <div>
+              <h3>Ahorra tiempo y evita el estrés</h3>
+              <p>Te ayudamos a automatizar tareas repetitivas y con plantillas de respuesta a medida.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="icon">✨</div>
+            <div>
+              <h3>Anuncio optimizado para generar más clics</h3>
+              <p>Título, fotos y textos afinados para que no pases desapercibido.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="icon">📈</div>
+            <div>
+              <h3>Más ingresos y control total</h3>
+              <p>Precios inteligentes y métricas comparativas con tu zona.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="icon">🌍</div>
+            <div>
+              <h3>Más alcance internacional</h3>
+              <p>Traducciones profesionales(+10 idiomas)no automaticas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <figure class="hero__image">
+        <img src="assets/hero.jpg" alt="Espacio atractivo de alojamiento" />
+      </figure>
+    </section>
+
+    <!-- RIBBON TESTIMONIAL -->
+    <section class="ribbon container">
+      <p>Me llamo Ivan, Superhost en Airbnb de forma continua durante más de 7 años,con experiencia en optimizar anuncios que generan más reservas y mejores valoraciones.</p>
+      <img class="avatar" src="assets/avatar.jpg" alt="Iván, Superhost" />
+    </section>
+
+    <!-- CTA + SCORE -->
+    <section class="cta container" id="score">
+      <div class="cta__text">
+        <p class="kicker">🔍 Consigue tu score de anfitrión</p>
+        <h2>Haz el test gratuito y obtén tu puntuación inmediata.</h2>
+        <p class="muted">¿Estás en verde o en rojo? 💥 Descúbrelo en 1 minuto.</p>
+        <a class="btn solid" href="#checker">QUIERO MI SCORE</a>
+      </div>
+    </section>
+
+    <!-- CHECKER + SEMÁFORO -->
+    <section class="card container" id="checker">
+      <h2>Checklist rápido</h2>
+      <form id="score-form" class="grid">
+        <label class="check"><input type="checkbox" name="photos" value="1"> ¿Tu anuncio tiene suficientes fotos de calidad (todas las estancias, varios ángulos)?</label>
+        <label class="check"><input type="checkbox" name="video" value="1"> ¿Tienes un vídeo corto que muestre el recorrido por tu alojamiento?</label>
+        <label class="check"><input type="checkbox" name="title" value="1"> ¿Tu título transmite emoción e incluye palabras gancho que atraen reservas?</label>
+        <label class="check"><input type="checkbox" name="amenities" value="1"> ¿Tu anuncio resalta los servicios más valorados (A/C, wifi, piscina, parking)?</label>
+        <label class="check"><input type="checkbox" name="pricing" value="1"> ¿Adaptas tus precios y noches mínimas según la temporada?</label>
+        <button type="submit" class="btn solid small">Calcular Score</button>
+      </form>
+
+      <div class="result">
+        <div class="semaforo" role="img" aria-label="Indicador de estado">
+          <span class="light red" aria-hidden="true"></span>
+          <span class="light yellow" aria-hidden="true"></span>
+          <span class="light green" aria-hidden="true"></span>
+        </div>
+        <p id="score-text">Marca opciones y pulsa “Calcular Score”.</p>
+      </div>
+    </section>
+
+    <!-- LEAD FORM -->
+    <section class="card container">
+      <h2>Recibe tu informe</h2>
+      <form id="lead-form" class="lead">
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="tu@correo.com" required />
+        </div>
+        <button type="submit" class="btn ghost">Enviar informe</button>
+      </form>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+  <div class="footer-container">
+    
+    <div class="footer-col">
+      <h4>DriveStay</h4>
+      <p>Más ingresos y control para tu alojamiento turístico, sin comisiones.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="#">Aviso legal</a></li>
+        <li><a href="#">Política de privacidad</a></li>
+        <li><a href="#">Política de cookies</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <ul>
+        <li><a href="mailto:hola@drivestay.com">hola@drivestay.com</a></li>
+        <li><a href="tel:+34123456789">+34 123 456 789</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Síguenos</h4>
+      <div class="social-links">
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Facebook</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <small>© 2025 DriveStay • Todos los derechos reservados</small>
+  </div>
+</footer>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
